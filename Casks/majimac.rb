@@ -5,7 +5,7 @@ cask "majimac" do
   # Replace this URL with your direct download link (GitHub Releases, Discord, Cloudflare, etc.)
   # Example for GitHub Releases:
   # url "https://github.com/majimawrks/majimac/releases/download/v#{version}/MajiMac.dmg"
-  url "https://cdn.discordapp.com/attachments/491477210910162945/1518802847578329259/MajiMac.dmg?ex=6a3b3ee0&is=6a39ed60&hm=43b6c3bda08ca8ac12e211a4079e2c0f755c5632978b240bd32dcbb0981b3ebe&"
+  url "https://cdn.discordapp.com/attachments/491477210910162945/1518932497419735131/MajiMac.dmg?ex=6a3bb79f&is=6a3a661f&hm=184dfab32a97769996ecf0ead63173f8b79a39c7b48982e787d10136cf32c108&"
   
   name "MajiMac"
   desc "Sleek macOS utility for RAR extraction and PDF merging"
