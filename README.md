@@ -1,32 +1,30 @@
 # Homebrew MajiMac
 
-This is the custom Homebrew tap for [MajiMac](https://github.com/majimawrks/majimac).
+This repository contains the custom Homebrew tap for [MajiMac](https://github.com/majimawrks/majimac), a macOS Menu Bar utility designed for frictionless productivity.
+
+## Overview
+
+MajiMac is a sleek, unobtrusive macOS Menu Bar utility that brings powerful, everyday file operations right to your fingertips without cluttering your Dock or workspace.
+
+### Key Features
+
+*   **RAR to ZIP Extraction**: MajiMac handles RAR files natively. Simply drag and drop any `.rar` file onto the utility to instantly extract and convert it into a standard, macOS-friendly `.zip` file in your Downloads folder.
+*   **Merge and Compress PDFs**: Combine multiple PDF files by dropping them into the "Merge PDFs" window. You can rearrange them visually and merge them into a single, cohesive PDF document. It also includes an option to compress the resulting PDF to save space.
+*   **Convert PDFs to Office Formats**: Convert non-editable PDFs into fully formatted Microsoft Word (`.docx`) or Microsoft Excel (`.xlsx`) documents. Select your target format, drop the file, and the editable document will be generated in your Downloads folder.
+
+## System Requirements
+
+*   macOS 15.0 or later
 
 ## Installation
 
-You can install MajiMac via Homebrew by adding this tap and installing the cask:
+You can install MajiMac via Homebrew. First, tap this repository, and then install the application cask:
 
 ```bash
 brew tap majimawrks/majimac
 brew install --cask majimac
 ```
 
-## MajiMac Features
+## Technical Details
 
-MajiMac is a sleek, unobtrusive macOS Menu Bar utility designed for frictionless productivity. It brings powerful, everyday file operations right to your fingertips without cluttering your Dock or workspace.
-
-### 🗜️ RAR to ZIP
-Tired of downloading third-party unarchivers just to open a RAR file? MajiMac handles this natively. 
-Simply drag and drop any `.rar` file onto the utility, and it will instantly extract and convert it into a standard, macOS-friendly `.zip` file in your Downloads folder. 
-
-### 📄 Merge PDFs
-Combining documents shouldn't require opening a heavy application.
-With MajiMac, you can drop multiple PDF files into the "Merge PDFs" window, rearrange them visually if needed, and merge them into a single, cohesive PDF document with one click.
-
-### 🔄 Convert PDFs (Word & Excel)
-Need to edit a PDF but don't want to pay for an expensive subscription? 
-MajiMac integrates with powerful conversion engines to turn your non-editable PDFs into fully formatted **Microsoft Word (.docx)** or **Microsoft Excel (.xlsx)** documents. Just select your target format, drop the file, and your new editable document will appear right in your Downloads folder.
-
----
-
-*Designed for macOS 15+ using native SwiftUI for maximum performance and battery efficiency.*
+MajiMac is designed using native SwiftUI to ensure maximum performance and battery efficiency on modern macOS systems.
